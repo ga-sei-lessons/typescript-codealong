@@ -1,5 +1,3 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) More Types and TypeScript Syntax
-
 ## Unions
 We can enforce types of multiple values with a type declaration on a union
 ```typescript

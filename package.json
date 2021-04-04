@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "name": "typescript-crashcourse",
+  "description": "### Learning Objectives - Describe advantages and disadvantages to using TypeScript - Identify and use basic types, interfaces and additional TypeScript stuff - Understand type inference and declaration - Configure and use the typescript compiler",
+  "version": "1.0.0",
+  "main": "type_fun.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEI-SEA-1-25/TypeScript-Crashcourse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SEI-SEA-1-25/TypeScript-Crashcourse/issues"
+  },
+  "homepage": "https://github.com/SEI-SEA-1-25/TypeScript-Crashcourse#readme",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.37"
+  }
+}
