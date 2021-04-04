@@ -112,6 +112,8 @@ numOrNull = united > 5 ? united : null
 // console.log(numOrNull)
 ```
 
+## Container types
+
 * show typed and generic arrays
 ```ts
 // typed arrays
@@ -291,3 +293,4 @@ app.listen(PORT, (): void => {
 
 * talk about type declaration files and install
   * `npm i --save-dev @types/express @types/node`  
+  * `tsc -p tsconfig.json` to use config file
