@@ -22,7 +22,7 @@ tsc -v
 ```bash
 mkdir ts_sandbox && cd ts_sandbox
 touch type_fun.ts
-tsc --init
+ # tsc --init
 ```
 
 * talk about the Types - begin with string number and bool
@@ -127,6 +127,16 @@ let multiverse: number[][] = [
 // generic array way -- but this causes issues with TSX syntax 
 // sometimes
 let generic: Array<string> = ['so bland', 'generic more like basic af'] 
+```
+
+* make a custom type:
+
+```ts
+type stringOrNumber = string | number
+
+const thisOnesAString: stringOrNumber = 'hello'
+let thisOneIsANumber: stringOrNumber = 10
+console.log(thisOnesAString)
 ```
 
 * functions need typed parameters and typed return values
@@ -269,6 +279,7 @@ let colorString: string = Color[0]
 * make an express server:
 * `npm init`
 * `npm i exoress`
+* `tsc --init`
 * touch index.ts
 * echo node_modules >> .gitignore
 
